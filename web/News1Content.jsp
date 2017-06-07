@@ -17,7 +17,7 @@
             <!-- LOGO -->
             <!-- <div class="navbar-brand">山东中医药大学理工学院</div> -->
             <div class="navbar-brand">
-                <a href="./Servlet"><img  class="img1" src="img/LOGO.JPG" alt="山东中医药大学理工学院"></a>
+                <a href="Servlet"><img  class="img1" src="img/LOGO.JPG" alt="山东中医药大学理工学院"></a>
             </div>
             <!-- <div class="navbar-brand"><img  class="img2" src="img/1.png" alt="山东中医药大学理工学院"></div> -->
         </div>
@@ -33,10 +33,11 @@
         </ul>
     </div>
     <div class = "nav">
-        <ul class="nav navbar-nav taglist">
+        <ul class="nav navbar-nav taglist content_list">
             <li class="tag"><a href="http://www.sdutcm.edu.cn/" class="item">学校首页</a></li>
             <li class="tag"><a href="./Servlet" class="item">院系首页</a></li>
             <li class="tag"><a href="#" class="item">院系简介</a></li>
+            <li class="tag"><a href="#" class="item">教育教学</a></li>
             <li class="tag"><a href="#" class="item">师资状况</a></li>
             <li class="tag"><a href="#" class="item">招生信息</a></li>
             <li class="tag"><a href="#" class="item">学生活动</a></li>
@@ -45,23 +46,25 @@
             <li class="tag"><a href="#" class="item">联系我们</a></li>
         </ul>
     </div>
+
     <div>
-        <div class="container">
-            <div class="content_title">
-                <%=
-                    request.getAttribute("news1_title")
-                %>
-            </div>
-            <div class="content_main">
-                <%=
-                    request.getAttribute("news1_content")
-                %>
-            </div>
+        <div class="content_title">
+            <%=
+                request.getAttribute("news1_title")
+            %>
+        </div>
+        <div class="content_main">
+            <pre>
+            <%=
+                request.getAttribute("news1_content")
+            %>
+            </pre>
         </div>
     </div>
 
 <div class="footer">
-    版权所有 山东中医药大学 | 地址：山东省济南市长清区大学科技园大学路4655号 | 邮编：250355 | 鲁ICP备05002379号
+    版权所有 山东中医药大学 | 地址：山东省
+    济南市长清区大学科技园大学路4655号 | 邮编：250355 | 鲁ICP备05002379号
 </div>
 </div>
 </body>

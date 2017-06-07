@@ -2,6 +2,7 @@ package com.xiaokangchenng.control;
 
 import com.xiaokangchenng.db.Dao;
 import com.xiaokangchenng.model.News;
+import com.xiaokangchenng.util.ContentUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -30,6 +31,8 @@ public class News1Servlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//        String content = new ContentUtil().strSplit(news.getNews_content());
+        request.setCharacterEncoding("UTF-8");
         request.setAttribute("news"+"1_title",news.getNews_title());
         request.setAttribute("news"+"1_content",news.getNews_content());
         request.getRequestDispatcher("./News1Content.jsp").forward(request,response);

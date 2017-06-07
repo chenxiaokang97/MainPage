@@ -35,8 +35,9 @@
     <div class = "nav">
         <ul class="nav navbar-nav taglist">
             <li class="tag"><a href="http://www.sdutcm.edu.cn/" class="item">学校首页</a></li>
-            <li class="tag"><a href="./Servlet" class="item">院系首页</a></li>
+            <li class="tag"><a href="Servlet" class="item">院系首页</a></li>
             <li class="tag"><a href="#" class="item">院系简介</a></li>
+            <li class="tag"><a href="#" class="item">教育教学</a></li>
             <li class="tag"><a href="#" class="item">师资状况</a></li>
             <li class="tag"><a href="#" class="item">招生信息</a></li>
             <li class="tag"><a href="#" class="item">学生活动</a></li>

@@ -24,6 +24,8 @@ public class Servlet extends javax.servlet.http.HttpServlet {
     }
 
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
+        request.setCharacterEncoding("utf-8");
+//        response.setCharacterEncoding("utf-8");
         int news_index = 1;
         for(News news : newsList){
             request.setAttribute("news"+news_index+"_title",news.getNews_title());

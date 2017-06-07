@@ -3,7 +3,7 @@ body{
   line-height: 1.7;
 }
 .body1{
-  max-width: 60%;
+  max-width: 70%;
   margin: 0 auto;
 }
 a,
@@ -15,6 +15,9 @@ a,
 .navbar{
   border-left: 0px;
   border-right: 0px;
+}
+.content_list{
+  margin-bottom: 10px;
 }
 .languageText{
   font-family: "Lucida Sans Unicode","Lucida Grande", Tahoma,Arial, Helvetica, sans-serif;
@@ -50,18 +53,17 @@ a,
 .body1 .content_title{
   color:#22132d;
   line-height: 22px;
-  font-size: 30px;
+  font-size: 22px;
   font-family: inherit;
 }
 .body1 .content_main{
   color:#22132d;
-  line-height: 22px;
   font-size: 16px;
   font-family: inherit;
+  text-indent: 2em;
 }
 .title{
   color:#22132d;
-  line-height: 22px;
   font-size: 16px;
   font-family: inherit;
 }
@@ -82,10 +84,21 @@ a,
 .href{
   color:#333;
 }
+.taglist{
+  margin-left: 20px;
+}
 .footer{
   margin-top: 30px;
   padding: 30px;
   text-align: center;
   background: #330033;
   color: #999;
+}
+pre{
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color:#22132d;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.7;
 }
