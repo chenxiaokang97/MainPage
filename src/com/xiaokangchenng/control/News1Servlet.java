@@ -2,7 +2,6 @@ package com.xiaokangchenng.control;
 
 import com.xiaokangchenng.db.Dao;
 import com.xiaokangchenng.model.News;
-import com.xiaokangchenng.util.ContentUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
